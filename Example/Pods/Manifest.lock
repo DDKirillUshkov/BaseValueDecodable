@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 89574d07781acd6147ff952d16a71463ae73641b
+PODS:
+  - BaseValueDecoder (1.0.0)
+
+DEPENDENCIES:
+  - BaseValueDecoder (from `../`)
+
+EXTERNAL SOURCES:
+  BaseValueDecoder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseValueDecoder: bb416ba7e89fbbf29873f07f8ccb3ac660f3bd35
+
+PODFILE CHECKSUM: 80e359f8ac6b32043cd8d9cefe346edd17266e0d
 
 COCOAPODS: 1.10.2
