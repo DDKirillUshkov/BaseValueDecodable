@@ -7,6 +7,8 @@ inhibit_all_warnings!
 
 target 'Example-iOS' do
 
+  pod 'BaseValueDecoder', :path => '../'
+  
   target 'Example-iOSTests' do
     inherit! :search_paths    
   end

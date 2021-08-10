@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7103862426C2814000CA001D /* BaseValueDecoder.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7103862326C2814000CA001D /* BaseValueDecoder.podspec */; };
 		71093C1826C13F7A0053CADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71093C1726C13F7A0053CADC /* AppDelegate.swift */; };
 		71093C1A26C13F7A0053CADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71093C1926C13F7A0053CADC /* SceneDelegate.swift */; };
 		71093C1C26C13F7A0053CADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71093C1B26C13F7A0053CADC /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		334879ABF576FDD41378F996 /* Pods-Example-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-iOS.release.xcconfig"; path = "Target Support Files/Pods-Example-iOS/Pods-Example-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		582977670841F4A77CD7CD8D /* Pods-Example-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Example-iOS/Pods-Example-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7103862326C2814000CA001D /* BaseValueDecoder.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BaseValueDecoder.podspec; path = ../../BaseValueDecoder.podspec; sourceTree = "<group>"; };
 		71093C1426C13F7A0053CADC /* Example-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71093C1726C13F7A0053CADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71093C1926C13F7A0053CADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,13 +96,21 @@
 				D951FAD44DECBE07265C9F75 /* Pods-Example-iOSTests.debug.xcconfig */,
 				8A8B132BD966A0A007A3CF9D /* Pods-Example-iOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7103862226C280B100CA001D /* Podspec */ = {
+			isa = PBXGroup;
+			children = (
+				7103862326C2814000CA001D /* BaseValueDecoder.podspec */,
+			);
+			name = Podspec;
 			sourceTree = "<group>";
 		};
 		71093C0B26C13F7A0053CADC = {
 			isa = PBXGroup;
 			children = (
+				7103862226C280B100CA001D /* Podspec */,
 				71093C1626C13F7A0053CADC /* Example-iOS */,
 				71093C2D26C13F7C0053CADC /* Example-iOSTests */,
 				71093C3826C13F7C0053CADC /* Example-iOSUITests */,
@@ -268,6 +278,7 @@
 			files = (
 				71093C2426C13F7B0053CADC /* LaunchScreen.storyboard in Resources */,
 				71093C2126C13F7B0053CADC /* Assets.xcassets in Resources */,
+				7103862426C2814000CA001D /* BaseValueDecoder.podspec in Resources */,
 				71093C1F26C13F7A0053CADC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
