@@ -1,16 +1,16 @@
 PODS:
-  - BaseValueDecoder (1.0.0)
+  - BaseValueDecodable (1.0.0)
 
 DEPENDENCIES:
-  - BaseValueDecoder (from `../`)
+  - BaseValueDecodable (from `../`)
 
 EXTERNAL SOURCES:
-  BaseValueDecoder:
+  BaseValueDecodable:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseValueDecoder: bb416ba7e89fbbf29873f07f8ccb3ac660f3bd35
+  BaseValueDecodable: 15dfe744b4d9bc909d015a5f90f687dd58d1ac29
 
-PODFILE CHECKSUM: 80e359f8ac6b32043cd8d9cefe346edd17266e0d
+PODFILE CHECKSUM: ac06ffcef2d6afb993942828e70f3b9f457a9b4a
 
 COCOAPODS: 1.10.2

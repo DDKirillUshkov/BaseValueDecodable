@@ -1,0 +1,6 @@
+framework module BaseValueDecodable {
+  umbrella header "BaseValueDecodable-umbrella.h"
+
+  export *
+  module * { export * }
+}

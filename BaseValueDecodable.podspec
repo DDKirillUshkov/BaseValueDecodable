@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'BaseValueDecoder'
+  s.name             = 'BaseValueDecodable'
   s.version          = '1.0.0'
   s.summary          = 'Serialize diferent types to any simple types (Bool, Int, String ...)'
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'dashdevs llc' => 'hello@dashdevs.com' }
   s.source           = { :git => 'https://github.com/dashdevs/BaseValueDecodable.git', :tag => s.version.to_s }
 
-  s.source_files = 'Sources/BaseValueDecoder/**/*'
+  s.source_files = 'Sources/BaseValueDecodable/**/*'
   
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.12'
